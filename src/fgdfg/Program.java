@@ -3,15 +3,6 @@ package fgdfg;
 public class Program {
     public static void main(String[] args) {
     	
-    	String a1 = new String("Hello");
-    	String a2 = new String("Hello");
-    	//System.out.println(a1==a2); // false
-    	//System.out.println(a1.equals(a2)); // true
-    	
-    	String a3 = "School";
-    	String a4 = "School";
-    	//System.out.println(a3==a4); 
-    	
     	// immutable - неизменяемая
     	String a = new String("adgadfgadfg");
     	System.out.println(a.hashCode());
